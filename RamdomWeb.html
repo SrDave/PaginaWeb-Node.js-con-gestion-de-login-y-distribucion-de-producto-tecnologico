@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>RamDom</title>
+    <link rel="stylesheet" href="Extra/DiseñoWeb.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+      
+   <nav class="menu" id="nav">
+         <span class="nav-item">
+            <span class="icon">
+               <i data-feather="home"></i>
+            </span>
+            <a href="RamdomWeb.html">Home</a>
+         </span>
+         <span class="nav-item">
+            <span class="icon">
+               <i data-feather="search"></i>
+            </span>
+            <a href="Extra/Product.html">Product</a>
+         </span>
+         <span class="nav-item">
+            <span class="icon">
+               <i data-feather="bell"></i>
+            </span>
+            <a href="Extra/WhoWeAre.html">Who we are</a>
+         </span>
+         <span class="nav-item">
+            <span class="icon">
+               <i data-feather="star"></i>
+            </span>
+            <a href="Extra/ContactUs.html">Contact Us</a>
+         </span>
+         <span class="nav-item profile dropdown">
+            <span class="icon">
+               <i data-feather="user"></i>
+            </span>
+            <a href="#">Your Profile ▾</a>
+            <div class="dropdown-content">
+               <a href="Extra/NewAccount.html">New account</a>
+               <a href="#" id="login-link" onclick="openLogin()">Log In</a>
+               <a href="#" id="logout-link" style="display: none;" onclick="logout()">Log Out</a>
+            </div>
+         </span>
+      </nav>
+
+      <h2>RamDom Music<br> Separador de Instrumentos</h2> 
+
+      <div class="fade-image">
+         <img src="Extra/Designer.jpeg" alt="Imagen con degradado">
+         <p class="image-text">Descubre una aplicación que te hará<br> escuchar tus canciones de froma distinta. </p>
+         <button class="buttonProd" onclick="location.href='Extra/Product.html'">Descubre app</button>
+      </div>
+      <div class="fade-image">
+         <img src="Extra/Designer4.jpeg" alt="Imagen con degradado">
+         <p class="image-text2">¿Quieres saber quienes somos?,<br>te presentamos nuestro equipo</p>
+         <button class="buttonWho" onclick="location.href='Extra/WhoWeAre.html'">Conocenos</button>
+      </div>
+      <div class="fade-image">
+         <img src="Extra/Designer6.jpeg" alt="Imagen con degradado">
+         <p class="image-text">Si tienes alguna duda.<br>Contacta con nosotros. </p>
+         <button class="buttonProd" onclick="location.href='Extra/ContactUs.html'">Contacta</button>
+      </div>
+
+      <footer>
+         <div class="footercontainer">
+           <p>&copy; 2025 Separador de instrumentos UPV. Todos los derechos reservados.</p>
+           <a href="https://www.iteam.upv.es/" target="_blank"><img src="Iteam5.png" class="imfooter"></a>
+           
+           <div class="footerinfo">
+             <ul class="listafooter">
+               <li>
+                 <h3 >Contacta</h3>
+               </li>
+               <li>
+                 <span>Mail</span>
+               </li>
+             </ul>
+             <ul class="listafooter">
+               <li>
+                 <h3 >Info</h3>
+               </li>
+               <li>
+                 <span>Home</span>
+               </li>
+               <li>
+                 <span>Quienes somos</span>
+               </li>
+               <li>
+                 <span>Live</span>
+               </li>
+             </ul>
+             <ul class="listafooter">
+               <li>
+                 <h3 >Categorias</h3>
+               </li>
+               <li>
+                 <span>Vod</span>
+               </li>
+               <li>
+                 <span>Live</span>
+               </li>
+               <li>
+                 <span>Categorias</span>
+               </li>
+             </ul>
+             <ul class="listafooter">
+               <li>
+                 <h3 >Cuenta</h3>
+               </li>
+               <li>
+                 <span>Contacta</span>
+               </li>
+             </ul>
+           </div>
+         </div>
+       </footer>
+
+       <script src="Extra/Funciones.js"></script>
+</body>
+</html>

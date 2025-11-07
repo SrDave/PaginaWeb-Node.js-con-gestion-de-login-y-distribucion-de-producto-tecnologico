@@ -1,0 +1,2 @@
+{"firstname":"David","lastname":"Ramos","age":"45","country":"España","city":"Valencia","phone":"666 555 444 333","username":"Dave","email":"darado80@gmail.com","password":"darado","confirm_password":"darado"}
+{"firstname":"Mariajo","lastname":"Verdeguer","age":"41","country":"España","city":"Valencia","phone":"555 555 555 555","username":"Lanovia","email":"verdeguer@gmail.com","password":"lanovia","confirm_password":"lanovia"}

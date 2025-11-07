@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>RamDom</title>
+    <link rel="stylesheet" href="DiseñoWeb.css">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+</head>
+
+<body>
+      
+   <nav class="menu" id="nav">
+         <span class="nav-item">
+            <span class="icon">
+               <i data-feather="home"></i>
+            </span>
+            <a href="../RamdomWeb.html">Home</a>
+         </span>
+         <span class="nav-item">
+            <span class="icon">
+               <i data-feather="search"></i>
+            </span>
+            <a href="Product.html">Product</a>
+         </span>
+         <span class="nav-item">
+            <span class="icon">
+               <i data-feather="bell"></i>
+            </span>
+            <a href="WhoWeAre.html">Who are we</a>
+         </span>
+         <span class="nav-item">
+            <span class="icon">
+               <i data-feather="star"></i>
+            </span>
+            <a href="ContactUs.html">Contact Us</a>
+         </span>
+         <span class="nav-item profile dropdown">
+            <span class="icon">
+               <i data-feather="user"></i>
+            </span>
+            <a href="#">Your Profile ▾</a>
+            <div class="dropdown-content">
+               <a href="NewAccount.html">New account</a>
+               <a href="#" id="login-link" onclick="openLogin()">Log In</a>
+               <a href="#" id="logout-link" style="display: none;" onclick="logout()">Log Out</a>
+            </div>
+         </span>
+      </nav>
+
+      <h2 class="titulo-contacto">Contáctanos</h2>
+
+      <div class="fade-image">
+        <img src="Designer6.jpeg" alt="Imagen con degradado"> 
+      </div>
+        <div class="contenido-formulario">
+          <form  id="sugerenciaForm">
+            <label class="texto-con-clip" for="username">Nombre de usuario:</label><br>
+            <input  type="text" id="username" name="username" required><br><br>
+      
+            <label class="texto-con-clip" for="mensaje">Mensaje de sugerencia:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="6" cols="50" required></textarea><br><br>
+      
+            <button type="submit">Enviar sugerencia</button>
+          </form>
+      
+          <p class="texto-con-clip">También puedes escribirnos directamente a:
+            <a href="mailto:dramdom@alumno.upv.es">dramdom@alumno.upv.es</a>
+          </p>
+      
+          <p id="respuestaServidor" style="color: green;"></p>
+        </div>
+      
+
+
+      <footer>
+         <div class="footercontainer">
+           <p>&copy; 2025 Separador de instrumentos UPV. Todos los derechos reservados.</p>
+           <a href="https://www.iteam.upv.es/" target="_blank"><img src="Iteam5.png" class="imfooter"></a>
+           
+           <div class="footerinfo">
+             <ul class="listafooter">
+               <li>
+                 <h3>Contacta</h3>
+               </li>
+               <li>
+                 <span>Mail</span>
+               </li>
+             </ul>
+             <ul class="listafooter">
+               <li>
+                 <h3 >Info</h3>
+               </li>
+               <li>
+                 <span>Home</span>
+               </li>
+               <li>
+                 <span>Quienes somos</span>
+               </li>
+               <li>
+                 <span>Live</span>
+               </li>
+             </ul>
+             <ul class="listafooter">
+               <li>
+                 <h3 >Categorias</h3>
+               </li>
+               <li>
+                 <span>Vod</span>
+               </li>
+               <li>
+                 <span>Live</span>
+               </li>
+               <li>
+                 <span>Categorias</span>
+               </li>
+             </ul>
+             <ul class="listafooter">
+               <li>
+                 <h3 >Cuenta</h3>
+               </li>
+               <li>
+                 <span>Contacta</span>
+               </li>
+             </ul>
+           </div>
+         </div>
+       </footer>
+       <script src="Funciones.js"></script>
+</body>
+</html>
